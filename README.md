@@ -83,7 +83,7 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC
 ```
-![Top Paying Job Skills](assets\top_paying_job_skills.png)
+![Top Paying Job Skills](assets/top_paying_job_skills.png)
 The chart visualises the top paying job skills
 
 ### 3.Top Skills in Demand
@@ -105,7 +105,7 @@ ORDER BY
     demand_skills DESC
 LIMIT 10
 ```
-![Top Demanded Skills](assets\top_demanded_skills.png)
+![Top Demanded Skills](assets/top_demanded_skills.png)
 This chart shows the top demanded skills needed for data analystics role
 
 ### 4. Top Paying Skills
@@ -129,7 +129,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 30
 ```
-![Top Paying Skills](assets\top_paying_skills.png)
+![Top Paying Skills](assets/top_paying_skills.png)
 The chart shows the roles that are being paid the most
 
 ### 5. Optimal Skills
@@ -189,7 +189,7 @@ ORDER BY
     demand_skills DESC
 LIMIT 30
 ```
-![Optimal Skills](assets\optimal_demand_skills.png)
+![Optimal Skills](assets/optimal_demand_skills.png)
 # Insight
 1. **Top Paying Data Analyst Jobs**: The highest paying remote jobs for data analyst is at $650,000!
 2. **Top paying Job Skills**: It shows that proficiency in SQL attracts a high salary as a data analyst.
@@ -197,3 +197,4 @@ LIMIT 30
 3. **Top Demanded Skills**: It also shows that SQL is also the most demanded skill as a data analyst in the industry.
 4. **Top Paying Skills**: SVN and Solidity are associated as highest average salaries as specialized skills, indicating a premium on niche expertise.
 5. **Optimal Skills**: SQL also leads in demand and offer a high average salary, positioning it as one of the most optimal skills for data analysts.
+
